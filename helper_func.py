@@ -23,6 +23,7 @@ def create_multi_bar_chart(dataframe: pd.DataFrame):
 
     fig.set_size_inches(12, 6)
     fig.tight_layout()
+    return (fig, axs)
 
 
 def create_line_chart(dataframe: pd.DataFrame):
@@ -53,3 +54,4 @@ def create_line_chart(dataframe: pd.DataFrame):
     ax.set_xticks(list(range(0, dataframe.index.size + 1, 10)))
     ax.set_xticks(dataframe.index, minor=True)
     fig.tight_layout()
+    return (fig, ax)
