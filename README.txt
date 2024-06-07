@@ -14,3 +14,7 @@ To replicate this analysis, you will need:
 - Numpy
 - Matplotlib
 - Seaborn
+
+## References
+- HIV.gov (https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline#year-1994)
+- Kaggle (https://www.kaggle.com/datasets/theworldbank/health-nutrition-and-population-statistics)
