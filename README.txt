@@ -10,3 +10,7 @@ The dataset used for this analysis is sourced from `data.csv`. It contains recor
 To replicate this analysis, you will need:
 - Python
 - Jupyter Notebook
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
